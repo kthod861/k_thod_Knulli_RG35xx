@@ -4,6 +4,8 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
+		<bgColor>000000</bgColor>
+		<bgOpacity>0.7</bgOpacity>
 		<glowColor>Ab000020</glowColor>
 		<systemInfoColor>DDDDDDD8</systemInfoColor>
 		<fontRegular>./_inc/fonts/Inter-Regular.otf</fontRegular>
@@ -16,6 +18,7 @@
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
+			<opacity>${bgOpacity}</opacity>
 			<zIndex>2</zIndex>
 		</image>
 		
@@ -25,6 +28,7 @@
 			<size>1 1</size>
 			<path>./_inc/images/carousel-background.png</path>
 			<color>000000</color>
+			<opacity>${bgOpacity}</opacity>
 			<zIndex>3</zIndex>
 		</image>
 
@@ -34,14 +38,16 @@
 			<size>0.2 0.007</size>
 			<path>./_inc/images/Left_Line.png</path>
 			<color>838383</color>
+			<opacity>${bgOpacity}</opacity>
 			<zIndex>200</zIndex>
 		</image>
 
 		<image name="lineLowerLeft" extra="true">
 			<origin>0 0</origin>
-			<pos>0 0.855</pos>
+			<pos>0 0.859</pos>
 			<size>0.15 0.007</size>
 			<path>./_inc/images/Left_Line.png</path>
+			<opacity>${bgOpacity}</opacity>
 			<color>838383</color>
 			<zIndex>200</zIndex>
 		</image>
@@ -52,15 +58,17 @@
 			<pos>0 0.6</pos>
 			<size>0.2 0.007</size>
 			<path>./_inc/images/Right_Line.png</path>
+			<opacity>${bgOpacity}</opacity>
 			<color>838383</color>
 			<zIndex>200</zIndex>
 		</image>
 
 		<image name="lineLowerRight" extra="true">
-			<origin>-5.6 0</origin>
-			<pos>0 0.855</pos>
+			<origin>-5.65 0</origin>
+			<pos>0 0.859</pos>
 			<size>0.15 0.007</size>
 			<path>./_inc/images/Right_Line.png</path>
+			<opacity>${bgOpacity}</opacity>
 			<color>838383</color>
 			<zIndex>200</zIndex>
 		</image>
@@ -73,7 +81,7 @@
 		
 		<text name="systemInfo">
 			<origin>0 0</origin>
-			<pos>-0.43 0.4</pos>
+			<pos>-0.43 0.41</pos>
 			<size>1 0.22</size>
 			<backgroundColor>00000000</backgroundColor>
 			<color>ADADAD</color>
@@ -89,10 +97,12 @@
 			<size>1 0.55</size>
 			<color>00000000</color>
 			<itemScale>1.80</itemScale>
-			<unfocusedItemDimming>0.5</unfocusedItemDimming>
+			<!--			<unfocusedItemDimming>0.5</unfocusedItemDimming>-->
+			<minLogoOpacity>0.25</minLogoOpacity>
 			<logoScale>2</logoScale>
 			<transitionSpeed>1200</transitionSpeed>
 			<systemInfoDelay>0</systemInfoDelay>
+			<scaledLogoSpacing>0.4</scaledLogoSpacing>
 		</carousel>
 		
 		<helpsystem name="help">
