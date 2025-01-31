@@ -1,0 +1,115 @@
+<!--
+-->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<glowColor>Ab000020</glowColor>
+		<systemInfoColor>DDDDDDD8</systemInfoColor>
+		<fontRegular>./_inc/fonts/Inter-Regular.otf</fontRegular>
+	</variables>
+	
+	<view name="system">
+		<!-- System view Background-->
+		<image name="background_color" extra="true">
+			<path>./_inc/systems/artwork/${system.theme}.jpg</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>2</zIndex>
+		</image>
+		
+		<image name="custom_bg_fg" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/images/carousel-background.png</path>
+			<color>000000</color>
+			<zIndex>3</zIndex>
+		</image>
+
+		<image name="lineUpperLeft" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0.6</pos>
+			<size>0.2 0.007</size>
+			<path>./_inc/images/Left_Line.png</path>
+			<color>838383</color>
+			<zIndex>200</zIndex>
+		</image>
+
+		<image name="lineLowerLeft" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0.855</pos>
+			<size>0.15 0.007</size>
+			<path>./_inc/images/Left_Line.png</path>
+			<color>838383</color>
+			<zIndex>200</zIndex>
+		</image>
+
+
+		<image name="lineUpperRight" extra="true">
+			<origin>-4 0</origin>
+			<pos>0 0.6</pos>
+			<size>0.2 0.007</size>
+			<path>./_inc/images/Right_Line.png</path>
+			<color>838383</color>
+			<zIndex>200</zIndex>
+		</image>
+
+		<image name="lineLowerRight" extra="true">
+			<origin>-5.6 0</origin>
+			<pos>0 0.855</pos>
+			<size>0.15 0.007</size>
+			<path>./_inc/images/Right_Line.png</path>
+			<color>838383</color>
+			<zIndex>200</zIndex>
+		</image>
+
+		<!-- System view Logos overides-->
+		<image name="logo">
+			<path>./_inc/systems/logos/${system.theme}.png</path>
+			<reflexion>0.3 0.0</reflexion>
+		</image>
+		
+		<text name="systemInfo">
+			<origin>0 0</origin>
+			<pos>-0.43 0.4</pos>
+			<size>1 0.22</size>
+			<backgroundColor>00000000</backgroundColor>
+			<color>ADADAD</color>
+			<fontPath>${fontRegular}</fontPath>
+			<fontSize>0.02</fontSize>
+			<letterCase>capitalize</letterCase>
+		</text>
+		
+		<!-- System view Carroussel overides-->
+		<carousel name="systemcarousel">
+			<origin>0 0</origin>
+			<pos>0 0.43</pos>
+			<size>1 0.55</size>
+			<color>00000000</color>
+			<itemScale>1.80</itemScale>
+			<unfocusedItemDimming>0.5</unfocusedItemDimming>
+			<logoScale>2</logoScale>
+			<transitionSpeed>1200</transitionSpeed>
+			<systemInfoDelay>0</systemInfoDelay>
+		</carousel>
+		
+		<helpsystem name="help">
+			<origin>0 0.5</origin>
+			<pos>0.016666667 0.96</pos>
+			<fontSize>${fontSizeBody}</fontSize>
+			<fontSizeDimmed>${fontSizeBody}</fontSizeDimmed>
+			<fontPath>${fontHelper}</fontPath>
+			<iconColor>000000</iconColor>
+			<textColor>000000</textColor>
+			<originDimmed>0.5 0.5</originDimmed>
+			<posDimmed>0.5 0.96</posDimmed>
+			<textColorDimmed>000000</textColorDimmed>
+			<iconColorDimmed>000000</iconColorDimmed>
+			<opacity>0</opacity>
+		</helpsystem>
+	</view>
+
+
+</theme>
