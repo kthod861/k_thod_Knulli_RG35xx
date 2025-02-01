@@ -5,137 +5,127 @@
 
 <theme>
   <formatVersion>7</formatVersion>
+	<variables>
+		<bgColor>000000</bgColor>
+		<bgOpacity>0.7</bgOpacity>
+		<glowColor>Ab000020</glowColor>
+		<systemInfoColor>DDDDDDD8</systemInfoColor>
+		<fontRegular>./_inc/fonts/Inter-Regular.otf</fontRegular>
+	</variables>
+	<view name="system,grid">
+		<!-- Background-->
+		<image name="background_color" extra="true">
+			<path>./_inc/systems/artwork/${system.theme}.jpg</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<opacity>${bgOpacity}</opacity>
+			<zIndex>2</zIndex>
+		</image>
+		<!-- Overlay-->
+		<image name="custom_bg_fg" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/images/carousel-background.png</path>
+			<color>000000</color>
+			<opacity>1</opacity>
+			<zIndex>3</zIndex>
+		</image>
+		<!-- Help-->
+		<helpsystem name="help">
+			<origin>0 0.5</origin>
+			<pos>0.016666667 0.96</pos>
+			<fontSize>${fontSizeBody}</fontSize>
+			<fontSizeDimmed>${fontSizeBody}</fontSizeDimmed>
+			<fontPath>${fontHelper}</fontPath>
+			<iconColor>000000</iconColor>
+			<textColor>000000</textColor>
+			<originDimmed>0.5 0.5</originDimmed>
+			<posDimmed>0.5 0.96</posDimmed>
+			<textColorDimmed>000000</textColorDimmed>
+			<iconColorDimmed>000000</iconColorDimmed>
+			<opacity>0</opacity>
+		</helpsystem>
+		<controllerActivity name="controllerActivity">
+			<visible>false</visible>
+		</controllerActivity>
+	</view>
+	
+	
+	<view name="system">
+		<!-- System view Lines-->
+		<image name="lineUpperLeft" extra="static">
+			<origin>0 0</origin>
+			<pos>0 0.6</pos>
+			<size>0.2 0.007</size>
+			<path>./_inc/images/Left_Line.png</path>
+			<color>838383</color>
+			<opacity>${bgOpacity}</opacity>
+			<zIndex>200</zIndex>
+		</image>
 
-  <view name="system">
-    <!-- Cards position -->
-    <carousel name="systemcarousel">
-      <origin>0.5 0</origin>
-      <pos>0.5 0</pos>
-      <defaultTransition>fade</defaultTransition>
-      <systemInfoDelay>300</systemInfoDelay>
-      <size>1.1 1</size>
-      <logoSize>0.25 0.25</logoSize>      <!-- 480x320 / 120x 80y -->
-      <logoScale>1.4</logoScale>
-      <maxLogoCount>4</maxLogoCount>
-      <logoPos>0.15 0.55</logoPos>
-      <zIndex>100</zIndex>
-    </carousel>
+		<image name="lineLowerLeft" extra="static">
+			<origin>0 0</origin>
+			<pos>0 0.859</pos>
+			<size>0.15 0.007</size>
+			<path>./_inc/images/Left_Line.png</path>
+			<opacity>${bgOpacity}</opacity>
+			<color>838383</color>
+			<zIndex>200</zIndex>
+		</image>
 
-    <image name="custom_bg_fg" extra="true">
-      <size>1 1</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
-      <zIndex>-7</zIndex>
-    </image>
+		<image name="lineUpperRight" extra="static">
+			<origin>-4 0</origin>
+			<pos>0 0.6</pos>
+			<size>0.2 0.007</size>
+			<path>./_inc/images/Right_Line.png</path>
+			<opacity>${bgOpacity}</opacity>
+			<color>838383</color>
+			<zIndex>200</zIndex>
+		</image>
 
-    <!-- System Name -->
-    <text name="systemName" extra="true">
-      <text>${system.fullName}</text>
-      <origin>0 0</origin>
-      <pos>0.08333 0.325</pos>      <!-- 480x320 / 48x 104y -->
-      <size>0.866667 ${fontSizeH1-medium}</size>      <!-- 480x320 / 416x -->
-      <fontPath>${fontBold}</fontPath>
+		<image name="lineLowerRight" extra="static">
+			<origin>-5.65 0</origin>
+			<pos>0 0.859</pos>
+			<size>0.15 0.007</size>
+			<path>./_inc/images/Right_Line.png</path>
+			<opacity>${bgOpacity}</opacity>
+			<color>838383</color>
+			<zIndex>200</zIndex>
+		</image>
 
-      <fontSize>${fontSizeH1}</fontSize>
+		<!-- System view Logos overides-->
+		<image name="logo">
+			<path>./_inc/systems/logos/${system.theme}.png</path>
+			<reflexion>0.3 0.0</reflexion>
+		</image>
+		<!-- System view Infos-->
+		<text name="systemInfo">
+			<origin>0 0</origin>
+			<pos>-0.43 0.41</pos>
+			<size>1 0.22</size>
+			<backgroundColor>00000000</backgroundColor>
+			<color>ADADAD</color>
+			<fontPath>${fontRegular}</fontPath>
+			<fontSize>0.02</fontSize>
+			<letterCase>capitalize</letterCase>
+		</text>
+		
+		<!-- System view Carroussel overides-->
+		<carousel name="systemcarousel">
+			<origin>0 0</origin>
+			<pos>0 0.43</pos>
+			<size>1 0.55</size>
+			<color>00000000</color>
+			<itemScale>1.80</itemScale>
+			<!--			<unfocusedItemDimming>0.5</unfocusedItemDimming>-->
+			<minLogoOpacity>0.25</minLogoOpacity>
+			<logoScale>2</logoScale>
+			<transitionSpeed>1200</transitionSpeed>
+			<systemInfoDelay>0</systemInfoDelay>
+			<scaledLogoSpacing>0.4</scaledLogoSpacing>
+		</carousel>
 
-      <lineSpacing>1</lineSpacing>
-      <alignment>left</alignment>
-      <zIndex>15</zIndex>
-    </text>
-
-    <!-- Total games per system -->
-    <text name="systemInfo">
-      <origin>0 0</origin>
-      <pos>0.08333 0.41</pos>
-      <size>0.866667 ${fontSizeBody-medium}</size>      <!-- 480x320 / 416x -->
-
-      <fontSize>${fontSizeBody}</fontSize>
-
-      <alignment>left</alignment>
-      <forceUppercase>0</forceUppercase>
-      <fontPath>${fontRegular}</fontPath>
-      <lineSpacing>1</lineSpacing>
-      <zIndex>15</zIndex>
-    </text>
-
-    <!-- System Logo -->
-    <image name="logo">
-      <path>./assets/logos/${system.theme}.svg</path>
-    </image>
-
-    <!-- Logo Fallback -->
-    <text name="logoText">
-      <origin>0 0</origin>
-      <fontPath>${fontRegular}</fontPath>
-      <fontSize>${fontSizeBody}</fontSize>
-    </text>
-
-    <!-- System Background -->
-    <image name="background" extra="true">
-      <path>./assets/background.png</path>
-      <size>1 1</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
-      <tile>true</tile>
-      <zIndex>-50</zIndex>
-    </image>
-
-    <!-- System Background -->
-    <image name="cover" extra="true">
-      <path>{random:image}</path>
-      <path>./assets/systems/${system.theme}.webp</path>
-      <size>1 0</size>
-      <origin>0 0.5</origin>
-      <pos>0 0.25</pos>
-      <zIndex>-9</zIndex>
-      <storyboard>
-        <animation property="opacity" from="0" to="1" begin="0" duration="1000" mode="easeOut" />
-      </storyboard>
-    </image>
-
-  </view>
-
-  <view name="system, basic, detailed, grid">
-    <image name="osdBackground" extra="true">
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <size>1 1</size>
-      <zIndex>100</zIndex>
-    </image>
-  </view>
-
-  <view name="screen">
-    <text name="clock">
-      <origin>0 0.5</origin>
-      <pos>0 0.0375</pos>      <!-- 480x320 / 0x 12y-->
-      <size>0.84 0</size>      <!-- 480x320 / 424x-->
-      <fontSize>${fontSizeCaption-medium}</fontSize>
-      <fontPath>${fontRegular}</fontPath>
-      <lineSpacing>1</lineSpacing>
-      <alignment>right</alignment>
-    </text>
-
-    <batteryIndicator name="batteryIndicator">
-      <pos>0.93 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y-->
-      <size>0.05</size>      <!-- 16x 16y-->
-      <itemSpacing>0.008333333</itemSpacing>
-
-      <!-- Assets -->
-      <full>./assets/icons/screen/16x16/battery=full.svg</full>
-      <at75>./assets/icons/screen/16x16/battery=75.svg</at75>
-      <at50>./assets/icons/screen/16x16/battery=50.svg</at50>
-      <at25>./assets/icons/screen/16x16/battery=25.svg</at25>
-      <empty>./assets/icons/screen/16x16/battery=empty.svg</empty>
-      <incharge>./assets/icons/screen/16x16/battery=charging.svg</incharge>
-      <networkIcon>./assets/icons/screen/16x16/wifi=on.svg</networkIcon>
-    </batteryIndicator>
-
-    <controllerActivity name="controllerActivity">
-      <origin>0 0</origin>
-      <pos>0.016666 0.025</pos>
-      <size>0.025</size>
-      <itemSpacing>0.003</itemSpacing>
-      <imagePath>./assets/pin.svg</imagePath>
-    </controllerActivity>
-  </view>
+	</view>
 </theme>
