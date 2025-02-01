@@ -1,0 +1,15 @@
+<!--
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="screen">
+    <text name="clock">
+      <visible ifSubset="Status Bar:hidden|battery">false</visible>
+    </text>
+  </view>
+
+</theme>

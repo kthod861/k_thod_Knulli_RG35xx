@@ -1,0 +1,61 @@
+<!--
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <ratioPath>ratio32</ratioPath>
+  </variables>
+
+<!-- from view-system.xml -->
+<!-- ratioPath -->
+  <view name="system">
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/carousel-background.png</path>
+    </image>
+  </view>
+
+  <!-- from view-general.xml -->
+  <!-- ratioPath -->
+  <view name="system, basic, detailed, grid, video">
+    <image name="borderOverlay" extra="true">
+      <path>./assets/${ratioPath}/borders.png</path>
+    </image>
+
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/gamelist-basic.png</path>
+    </image>
+  </view>
+
+  <view name="video">
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/gamelist-video.png</path>
+    </image>
+  </view>
+
+  <view name="system, basic, detailed, grid">
+    <image name="osdBackground" extra="true">
+      <path>./assets/${ratioPath}/osd-bg.png</path>
+    </image>
+  </view>
+
+  <!-- from view-elementflix.xml -->
+  <customView name="elementflix" inherits="grid">
+    <!-- ratioPath -->
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/gamelist-video.png</path>
+    </image>
+  </customView>
+
+  <!-- from view-menu.xml -->
+  <!-- ratioPath -->
+  <view name="menu">
+    <menuBackground name="menubg">
+      <path>./assets/${ratioPath}/menu.png</path>
+    </menuBackground>
+  </view>
+
+</theme>

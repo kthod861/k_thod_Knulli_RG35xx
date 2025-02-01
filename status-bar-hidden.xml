@@ -1,0 +1,25 @@
+<!--
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="system, basic, detailed, grid">
+    <image name="osdBackground" extra="true">
+      <visible ifSubset="Status Bar:hidden">false</visible>
+    </image>
+  </view>
+
+  <view name="screen">
+    <text name="clock">
+      <visible ifSubset="Status Bar:hidden|battery">false</visible>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <visible ifSubset="Status Bar:hidden|clock">false</visible>
+    </batteryIndicator>
+  </view>
+
+</theme>

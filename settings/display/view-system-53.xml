@@ -1,0 +1,161 @@
+<!--
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <ratioPath>ratio53</ratioPath>
+  </variables>
+
+<!-- from view-system.xml -->
+  <view name="system">
+    <!-- Cards position -->
+    <carousel name="systemcarousel">
+      <size ifSubset="Ratio:ratio53">1.2 1</size>
+      <maxLogoCount ifSubset="Ratio:ratio53">5</maxLogoCount>
+      <logoPos ifSubset="Ratio:ratio53">0.2 0.55</logoPos>
+    </carousel>
+
+    <image name="custom_bg_fg" extra="true">
+      <path ifSubset="Ratio:ratio53">./assets/${ratioPath}/carousel-background.png</path>
+    </image>
+
+  </view>
+
+  <view name="system, basic, detailed, grid">
+    <image name="osdBackground" extra="true">
+      <path>./assets/${ratioPath}/osd-bg.png</path>
+    </image>
+  </view>
+
+  <view name="screen">
+    <text name="clock">     <!-- 480x320 / 0x 16y-->
+      <pos ifSubset="Ratio:ratio53">0 0.041666667</pos>      <!-- 480x320 / 0x 4y-->
+      <size ifSubset="Ratio:ratio53">0.84 0</size>      <!-- 640x480 / 544x-->
+      <fontSize ifSubset="Ratio:ratio53">${fontSizeBody-medium}</fontSize>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.93 0.0125</pos>
+      <itemSpacing>0.008333333</itemSpacing>
+      <size>0.0625</size>      <!-- 72x 72y-->
+
+      <!-- Assets -->
+      <full>./assets/icons/screen/72x72/battery=full.svg</full>
+      <at75>./assets/icons/screen/72x72/battery=75.svg</at75>
+      <at50>./assets/icons/screen/72x72/battery=50.svg</at50>
+      <at25>./assets/icons/screen/72x72/battery=25.svg</at25>
+      <empty>./assets/icons/screen/72x72/battery=empty.svg</empty>
+      <incharge>./assets/icons/screen/72x72/battery=charging.svg</incharge>
+      <networkIcon>./assets/icons/screen/72x72/wifi=on.svg</networkIcon>
+    </batteryIndicator>
+  </view>
+
+  <!-- from view-grid.xml -->
+  <view name="grid">
+    <imagegrid name="gamegrid">
+      <autoLayout ifSubset="Ratio:ratio53">4 2</autoLayout>
+      <margin ifSubset="Ratio:ratio53">0.025 0.025</margin>      <!-- 480x320 / 12x 8y -->
+    </imagegrid>
+
+    <gridtile name="default">
+      <padding ifSubset="Ratio:ratio53">8 8</padding>
+    </gridtile>
+
+    <image name="gridtile.image">
+      <roundCorners ifSubset="Ratio:ratio53">0.025</roundCorners>
+    </image>
+
+    <image name="gridtile.image:selected">
+      <roundCorners ifSubset="Ratio:ratio53">0.015</roundCorners>
+    </image>
+
+    <ninepatch name="gridtile.background" ifSubset="Ratio:ratio53">
+      <path>./assets/grid-selector@3.png</path>
+      <cornerSize>10 10</cornerSize>
+    </ninepatch>
+
+    <text name="gridtile">
+      <size ifSubset="Ratio:ratio53">0.9 0.18</size>
+      <padding ifSubset="Ratio:ratio53">0.05 0</padding>
+    </text>
+  </view>
+
+  <!-- from view-general.xml -->
+  <!-- ratioPath -->
+  <view name="system, basic, detailed, grid, video">
+    <image name="borderOverlay" extra="true">
+      <path>./assets/${ratioPath}/borders.png</path>
+    </image>
+
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/gamelist-basic.png</path>
+    </image>
+  </view>
+
+  <view name="video">
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/gamelist-video.png</path>
+    </image>
+  </view>
+
+  <view name="basic, detailed, video">
+    <textlist name="gamelist">
+      <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
+    </textlist>
+  </view>
+
+  <view name="detailed">
+    <rating name="md_rating">
+      <pos ifSubset="Ratio:ratio53">0.62 0.83125</pos>
+    </rating>
+  </view>
+
+<!-- from view-boxes.xml -->
+   <customView name="boxes" inherits="grid">
+    <imagegrid name="gamegrid">
+      <autoLayout ifSubset="Ratio:ratio53">3 2</autoLayout>
+      <margin ifSubset="Ratio:ratio53">0.025 0.041667</margin>      <!-- 1920x1152 / 48x 48y -->
+    </imagegrid>
+
+    <image name="gridtile.image">
+      <roundCorners ifSubset="Ratio:ratio53">0.015</roundCorners>
+    </image>
+
+    <image name="gridtile.image:selected">
+      <roundCorners ifSubset="Ratio:ratio53">0.01</roundCorners>
+    </image>
+    </customView>
+
+<!-- from view-elementflix.xml -->
+  <customView name="elementflix" inherits="grid">
+    <imagegrid name="gamegrid">
+      <autoLayout ifSubset="Ratio:ratio53">5 1</autoLayout>
+    </imagegrid>
+
+    <ninepatch name="gridtile.background">
+      <path ifSubset="Ratio:ratio53">./assets/grid-selector.png</path>
+    </ninepatch>
+
+    <gridtile name="default">
+      <padding ifSubset="Ratio:ratio53">4 4</padding>
+    </gridtile>
+    <!-- ratioPath -->
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/gamelist-video.png</path>
+    </image>
+  </customView>
+
+  <!-- from view-menu.xml -->
+  <!-- ratioPath -->
+  <view name="menu">
+    <menuBackground name="menubg">
+      <path>./assets/${ratioPath}/menu.png</path>
+    </menuBackground>
+  </view>
+
+</theme>

@@ -1,0 +1,45 @@
+<!--
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+<!-- from view-system.xml -->
+    <view name="system">
+        <image name="cover" extra="true" ifSubset="Background Style:custom">
+            <path>./customBackground/${system.theme}.jpg</path>
+            <path>./customBackground/${system.theme}.jpeg</path>
+            <path>./customBackground/${system.theme}.png</path>
+            <path>./customBackground/${system.theme}.webp</path>
+        </image>
+
+        <image name="cover_general" extra="true" ifSubset="Background Style:custom">
+            <path>./customBackground/general.jpg</path>
+            <path>./customBackground/general.jpeg</path>
+            <path>./customBackground/general.png</path>
+            <path>./customBackground/general.webp</path>
+            <size>1 0</size>
+            <origin>0 0.5</origin>
+            <pos>0 0.25</pos>
+            <zIndex>-9</zIndex>
+        </image>
+    </view>
+
+<!-- from view-general.xml -->
+    <view name="basic, detailed, grid, video">
+        <image name="cover_list" extra="true" ifSubset="Background Style:custom">
+            <path>./customBackground/${system.theme}.jpg</path>
+            <path>./customBackground/${system.theme}.jpeg</path>
+            <path>./customBackground/${system.theme}.png</path>
+            <path>./customBackground/${system.theme}.webp</path>
+
+            <path>./customBackground/general.jpg</path>
+            <path>./customBackground/general.jpeg</path>
+            <path>./customBackground/general.png</path>
+            <path>./customBackground/general.webp</path>
+        </image>
+    </view>
+
+</theme>

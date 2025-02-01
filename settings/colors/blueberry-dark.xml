@@ -1,0 +1,18 @@
+<!--
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <mainColor>3689E6</mainColor>
+    <onMainColor>EBF5FF</onMainColor>
+    <bgColor>16191D</bgColor>
+    <sectColor>8cd5ff</sectColor>
+  </variables>
+
+  <include>./scheme-dark.xml</include>
+
+</theme>

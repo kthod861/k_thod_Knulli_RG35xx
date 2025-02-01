@@ -1,0 +1,19 @@
+<!--
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="screen">
+    <text name="clock">
+      <size ifSubset="Status Bar:clock">0.966667 0</size>      <!-- 480x320 / 432x-->
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <visible ifSubset="Status Bar:hidden|clock">false</visible>
+    </batteryIndicator>
+  </view>
+
+</theme>

@@ -1,0 +1,16 @@
+<!--
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+<!-- from view-system.xml -->
+    <view name="system">
+        <image name="cover" extra="true" ifSubset="Background Style:random">
+      <path>{random:image}</path>
+    </image>
+  </view>
+
+</theme>
