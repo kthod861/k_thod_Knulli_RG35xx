@@ -21,18 +21,18 @@
 			<opacity>${bgOpacity}</opacity>
 			<zIndex>2</zIndex>
 		</image>
-		
+		<!-- System view Overlay-->
 		<image name="custom_bg_fg" extra="true">
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./_inc/images/carousel-background.png</path>
 			<color>000000</color>
-			<opacity>${bgOpacity}</opacity>
+			<opacity>1</opacity>
 			<zIndex>3</zIndex>
 		</image>
-
-		<image name="lineUpperLeft" extra="true">
+		<!-- System view Lines-->
+		<image name="lineUpperLeft" extra="static">
 			<origin>0 0</origin>
 			<pos>0 0.6</pos>
 			<size>0.2 0.007</size>
@@ -42,7 +42,7 @@
 			<zIndex>200</zIndex>
 		</image>
 
-		<image name="lineLowerLeft" extra="true">
+		<image name="lineLowerLeft" extra="static">
 			<origin>0 0</origin>
 			<pos>0 0.859</pos>
 			<size>0.15 0.007</size>
@@ -52,8 +52,7 @@
 			<zIndex>200</zIndex>
 		</image>
 
-
-		<image name="lineUpperRight" extra="true">
+		<image name="lineUpperRight" extra="static">
 			<origin>-4 0</origin>
 			<pos>0 0.6</pos>
 			<size>0.2 0.007</size>
@@ -63,7 +62,7 @@
 			<zIndex>200</zIndex>
 		</image>
 
-		<image name="lineLowerRight" extra="true">
+		<image name="lineLowerRight" extra="static">
 			<origin>-5.65 0</origin>
 			<pos>0 0.859</pos>
 			<size>0.15 0.007</size>
@@ -78,7 +77,7 @@
 			<path>./_inc/systems/logos/${system.theme}.png</path>
 			<reflexion>0.3 0.0</reflexion>
 		</image>
-		
+		<!-- System view Infos-->
 		<text name="systemInfo">
 			<origin>0 0</origin>
 			<pos>-0.43 0.41</pos>
@@ -104,7 +103,7 @@
 			<systemInfoDelay>0</systemInfoDelay>
 			<scaledLogoSpacing>0.4</scaledLogoSpacing>
 		</carousel>
-		
+		<!-- System view Help-->
 		<helpsystem name="help">
 			<origin>0 0.5</origin>
 			<pos>0.016666667 0.96</pos>
