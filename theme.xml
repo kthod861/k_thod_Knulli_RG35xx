@@ -14,9 +14,6 @@
       <batteryIndicator name="batteryIndicator">
          <visible>false</visible>
       </batteryIndicator>
-      <text name="clock">
-         <pos>1 1</pos>
-      </text>
    </view>
    
 </theme>

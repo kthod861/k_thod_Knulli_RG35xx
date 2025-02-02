@@ -5,10 +5,7 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="screen">
-		<text name="clock">
-			<pos>1 1</pos>
-		</text>
-	
+
 		<batteryIndicator name="batteryIndicator"
 			visible="false"
 		/>
@@ -68,11 +65,11 @@
 			/>
 	  
 		</stackpanel>
-		<stackpanel name="systemClockPanel" orientation="horizontal" size="0.58 0.045" pos="0 0">
+		<stackpanel name="systemClockPanel" orientation="horizontal" size="0.58 0.045" pos="0.005 0.005">
 			<clock name="system-clock"
 				fontPath="./../fonts/${f.def}"
 				color="${c.text}"
-				fontSize="0.035"
+				fontSize="0.025"
 			/>
 			
 		</stackpanel>

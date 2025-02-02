@@ -152,12 +152,8 @@
     </image>
   </view>
 
-  <!--Clock Settings-->
-  <view name="screen">
-    <text name="clock">
-      <color>FFFFFF</color>
-    </text>
 
+  <view name="screen">
     <batteryIndicator name="batteryIndicator">
       <color>FFFFFF</color>
     </batteryIndicator>
