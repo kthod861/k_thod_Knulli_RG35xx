@@ -5,7 +5,9 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="screen">
-
+		<text name="clock">
+			<pos>1 1</pos>
+		</text>
 		<batteryIndicator name="batteryIndicator"
 			visible="false"
 		/>
