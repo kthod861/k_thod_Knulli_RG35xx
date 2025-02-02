@@ -27,7 +27,7 @@
 			<opacity>1</opacity>
 			<zIndex>3</zIndex>
 		</image>
-		<!-- Help-->
+		<!-- Help
 		<helpsystem name="help">
 			<origin>0 0.5</origin>
 			<pos>0.016666667 0.96</pos>
@@ -41,7 +41,7 @@
 			<textColorDimmed>000000</textColorDimmed>
 			<iconColorDimmed>000000</iconColorDimmed>
 			<opacity>0</opacity>
-		</helpsystem>
+		</helpsystem>-->
 
 	</view>
 	

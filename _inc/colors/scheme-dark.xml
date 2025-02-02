@@ -147,7 +147,7 @@
     </image>
   </view>
 
-  <!-- Clock Settings -->
+  <!-- Clock Settings
   <view name="screen">
     <text name="clock">
       <color>FFFFFF</color>
@@ -160,5 +160,5 @@
 	<controllerActivity name="controllerActivity">
 		<visible>false</visible>
 	</controllerActivity>
-  </view>
+  </view> -->
 </theme>
