@@ -1,16 +1,23 @@
-# Elementerial Classic RG406
-A personnal modification of [RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de) for my Anbernic RG 406V .
+# k_thod_es_de_Knulli_RG35xx
+A personnal modification of 
+
+[RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de) 
+and
+[SymBuzzer_es-theme-knully](https://github.com/symbuzzer/es-theme-knulli)
+
+for my Anbernic RG35xx plus and RG40xxV running Knulli.
+
 
 Highly reduced the amount of options to my needs (grid only, one size).
 
-A great way to learn how ES-DE themes works.
+A great way to learn how Bato <> ES-DE themes works.
 
 Almost all systems arts have been tweaked.
 
-Should fit any 4:3 ratio / 960x720 resolution.
+Should fit any 4:3 ratio / 640x480 resolution.
 
 Install :
-Download and extract to ES-DE theme folder
+Download and extract to Knulli  /userdata/themes folder
 
 Systems preview:
 ![sample1](https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/Systems_screen.jpg)
