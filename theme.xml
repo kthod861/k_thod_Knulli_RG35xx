@@ -3,14 +3,12 @@
 
 	<include>./_inc/xml/variables.xml</include>
 	<include>./_inc/xml/batteryIndicator.xml</include>
-	<include>./_inc/colors/scheme-dark.xml</include>
-	<include>./_inc/xml/view-general.xml</include>
+	<include>./_inc/xml/scheme-dark.xml</include>
 	<include>./_inc/xml/view-menu.xml</include>
 	<include>./_inc/xml/view-system.xml</include>
 	<include>./_inc/xml/view-grid.xml</include>
 	
    <view name="screen">
-
       <controllerActivity name="controllerActivity">
          <visible>false</visible>
       </controllerActivity>
@@ -20,7 +18,6 @@
       <text name="clock">
          <pos>1 1</pos>
       </text>
-
    </view>
    
 </theme>

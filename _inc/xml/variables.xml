@@ -133,7 +133,7 @@
 		
 		<f.def>ubuntu.ttf</f.def>
 
-	<!-- GRID VAR
+	<!-- GRID VAR-->
 		<c.frame>161616</c.frame>
 		<c.base>121212</c.base>
 		<c.scroll>808080</c.scroll>
@@ -207,6 +207,6 @@
 		<v.ScrollBar2>0.0045</v.ScrollBar2>
 		
 		<f.def>ubuntu.ttf</f.def>
--->
+
   </variables>
 </theme>
