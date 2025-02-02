@@ -41,10 +41,10 @@
       <secondaryColor>${fgColor}</secondaryColor>
     </textlist>
 
-    <rating name="md_rating">
+    <!--<rating name="md_rating">
       <color>${sectColor}</color>
       <unfilledColor>${sectColor}</unfilledColor>
-    </rating>
+    </rating>-->
 
     <image name="custom_bg_fg" extra="true">
       <color>${bgColor}</color>
