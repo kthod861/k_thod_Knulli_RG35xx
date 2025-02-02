@@ -7,7 +7,7 @@
   <formatVersion>7</formatVersion>
 
   <!--Configurações de ajuda-->
-  <view name="system, basic, detailed, grid, video">
+  <view name="system, grid">
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
       <fontSize>${fontSizeBody}</fontSize>
@@ -24,7 +24,7 @@
   </view>
 
   <!--Configurações comuns de views-->
-  <view name="basic, detailed, grid, video">
+  <view name="grid">
     <text name="logoText">
       <fontPath>${fontBold}</fontPath>
       <fontSize>${fontSizeH2}</fontSize>
@@ -66,13 +66,6 @@
     </image>
   </view>
 
-  <view name="basic, detailed, video">
-    <text name="logoText">
-      <pos>0.033333 0.1</pos>      <!--480x320 / 16x 32y-->
-      <size>0.933333 ${fontSizeH2-medium}</size>      <!-- 480x320 / 448x -->
-      <origin>0 0.5</origin>
-    </text>
-
     <textlist name="gamelist">
       <pos>0 0.2</pos>      <!-- 480x320 / 0x 64y -->
       <horizontalMargin>0.033333</horizontalMargin>      <!-- 16px -->
@@ -83,25 +76,6 @@
 
     </textlist>
   </view>
-
-  <view name="video">
-    <textlist name="gamelist">
-      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.7</lineSpacing>
-    </textlist>
-  </view>
-
-  <view name="basic">
-    <textlist name="gamelist">
-      <size>1 0.8</size>      <!-- 480x320 / 480x 256y-->
-      <size ifHelpPrompts="true">1 0.725</size>      <!-- 480x320 / 480x 232y-->
-    </textlist>
-  </view>
-
-  <view name="detailed">
-    <textlist name="gamelist">
-      <size>0.466667 0.8</size>      <!-- 480x320 / 224x 256y-->
-      <size ifHelpPrompts="true">0.466667 0.725</size>      <!-- 480x320 / 224x 232y-->
-    </textlist>
 
     <image name="md_image">
       <pos>0.733333 0.525</pos>      <!-- 480x320 / (240 + maxWidth / 2 = 352)x (80 + maxHeight / 2 = 168)y -->
@@ -139,30 +113,6 @@
       <visible>false</visible>
     </datetime>
   </view>
-
-
-  <view name="video">
-    <image name="md_marquee">
-      <pos>0.2 0.1875</pos>      <!-- 480x320 / (240 + maxWidth / 2 = 352)x (80 + maxHeight / 2 = 168)y -->
-      <origin>0.5 0.5</origin>
-      <maxSize>0.333333333 0.325</maxSize>      <!-- 480x320 / 224x 176y -->
-    </image>
-
-    <video name="md_video">
-      <origin>0 0.5</origin>
-      <pos>0.4 0.2875</pos> <!-- 192x 92y -->
-      <minSize>0.6 0.575</minSize> <!-- 288x 184y -->
-      <delay>1</delay>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
-      <effect>none</effect>
-
-      <!-- <snapshotSource ifSubset="VideoSnapshot:videoThumbnail|videoDefault">thumbnail</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoScreenshot">image</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource> -->
-      <snapshotSource>${videoSnapshot}</snapshotSource>
-      <zIndex>0</zIndex>
-    </video>
 
     <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
       <visible>false</visible>
