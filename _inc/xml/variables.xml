@@ -58,19 +58,19 @@
 		<v.frameLeft.x>0.22</v.frameLeft.x>
 		<v.frameRight.x>0.705</v.frameRight.x>
 
-		<v.frame.y>0.53</v.frame.y>
+		<v.frame.y>0.50</v.frame.y>
 
 		<v.frame.w>0.95</v.frame.w>
 		<v.frameLeft.w>0.39</v.frameLeft.w>
 		<v.frameRight.w>0.54</v.frameRight.w>
 
-		<v.frame.h>0.90</v.frame.h>
+		<v.frame.h>0.85</v.frame.h>
 
 		<v.frameBorders.w>0.95 + (${v.line.w})</v.frameBorders.w>
 		<v.frameLeftBorders.w>0.39 + (${v.line.w})</v.frameLeftBorders.w>
 		<v.frameRightBorders.w>0.54 + (${v.line.w})</v.frameRightBorders.w>
 
-		<v.frameBorders.h>0.90 + (${v.line.h})</v.frameBorders.h>
+		<v.frameBorders.h>0.85 + (${v.line.h})</v.frameBorders.h>
 
 		<v.frame.size>${v.frame.w} ${v.frame.h}</v.frame.size>
 		<v.frameLeft.size>${v.frameLeft.w} ${v.frame.h}</v.frameLeft.size>
@@ -85,15 +85,8 @@
 		<v.frameRightBorders.size>${v.frameRightBorders.w} ${v.frameBorders.h}</v.frameRightBorders.size>
 
 		<v.gamelist.fontSize>0.024</v.gamelist.fontSize>
-
-		<v.gamelistDetailed.size>0.39 0.90</v.gamelistDetailed.size>
-
-		<v.gamelistBasic.size>0.95 0.90</v.gamelistBasic.size>
-
-		<v.gamelistGrid.size>0.95 0.90</v.gamelistGrid.size>
-
+		<v.gamelistGrid.size>0.95 0.85</v.gamelistGrid.size>
 		<v.gameDescription.size>0.160</v.gameDescription.size>
-
 		<v.playTime.size>0.100</v.playTime.size>
 
 		<v.video.pos>0.705 0.70</v.video.pos>
