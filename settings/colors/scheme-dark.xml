@@ -7,6 +7,10 @@
   <formatVersion>7</formatVersion>
 
   <variables>
+    <mainColor>F9C440</mainColor>
+    <onMainColor>1D1B16</onMainColor>
+    <bgColor>1D1B16</bgColor>
+    <sectColor>fff394</sectColor>
     <fgColor>FFFFFF</fgColor>
   </variables>
 

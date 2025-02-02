@@ -8,11 +8,8 @@
 
 	<include>./variables.xml</include>
 
-	<subset name="FontSize" displayName="Font Size">
-		<include name="small">./variables-small.xml</include>
-	</subset>
 	<subset name="Color scheme" displayName="Color scheme">
-		<include name="banana-dark" displayName="banana-dark">./settings/colors/banana-dark.xml</include>
+		<include name="default" displayName="default">./settings/colors/scheme-dark.xml</include>
 	</subset>
 
 	<include>./settings/display/view-general.xml</include>
