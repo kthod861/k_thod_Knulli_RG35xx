@@ -19,6 +19,8 @@
     <helpsystem name="help">
       <textColor>${fgColor}</textColor>
       <iconColor>${sectColor}</iconColor>
+	  <pos>10 10</pos>
+
     </helpsystem>
 
     <image name="background">
@@ -28,10 +30,13 @@
 
   <!--Configurações de cores nas listas de jogos-->
   <view name="grid">
-    <text name="logoText">
-      <color>${fgColor}${percent.90}</color>
-      <glowColor>${bgColor}${percent.10}</glowColor>
-      <glowSize>1</glowSize>
+		<text name="logoText">
+		<origin>0 0.5</origin>
+		<pos>0.033333 0.078125</pos>
+		<fontSize>${fontSizeH3}</fontSize> 
+		<fontPath>${fontBold}</fontPath>
+		<color>${fgColor}${percent.90}</color>
+		<alignment>left</alignment>
     </text>
 
     <textlist name="gamelist">
