@@ -31,44 +31,6 @@
 
 		</image>
 
-		<image name="frame"
-		
-			extra="true"
-			zIndex="600"
-			path="./../systems/white.png"
-			origin="0.5 0.5"
-			size="${v.frame.size}"
-			pos="${v.frame.pos}"
-			color="${c.frame}80"
-			
-		/>
-
-		<image name="frameBorders"
-		
-			extra="true"
-			zIndex="599"
-			path="./../systems/white.png"
-			origin="0.5 0.5"
-			size="${v.frameBorders.size}"
-			pos="${v.frame.pos}"
-			color="${c.main}33"
-			
-		/>
-			
-		<image name="frameShadow"
-		
-			extra="true"
-			linearSmooth="true"
-			zIndex="598"
-			path="./../systems/frameShadow.png"
-			origin="0.5 0.5"
-			pos="0.5 0.5"
-			size="1 1"
-			color="${c.glowColor}"
-			opacity="0.5"
-			
-		/>
-
 		<imagegrid name="gamegrid"
 		
 			zIndex="1001"
