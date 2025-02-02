@@ -21,10 +21,10 @@
     <fontSizeBody-small>0.03125</fontSizeBody-small> <!-- 10 -->
     <fontSizeCaption-small>0.028125</fontSizeCaption-small> <!-- 9 -->
 
-    <fontRegular>./_inc/fonts/Inter-Regular.otf</fontRegular>
-    <fontBold>./_inc/fonts/Inter-Bold.otf</fontBold>
-    <fontLight>./_inc/fonts/Inter-Light.otf</fontLight>
-    <fontHelper>./_inc/fonts/RobotoCondensed-Regular.ttf</fontHelper>
+    <fontRegular>./../fonts/Inter-Regular.otf</fontRegular>
+    <fontBold>./../fonts/Inter-Bold.otf</fontBold>
+    <fontLight>./../fonts/Inter-Light.otf</fontLight>
+    <fontHelper>./../fonts/RobotoCondensed-Regular.ttf</fontHelper>
 
     <percent.90>E6</percent.90>
     <percent.80>CC</percent.80>

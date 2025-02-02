@@ -82,16 +82,16 @@
     </menuText>
 
     <menuTextEdit name="menutextedit">
-      <inactive>./_inc/systems/input_inactive-dark.svg</inactive>
-      <active>./_inc/systems/input_active-dark.svg</active>
+      <inactive>./../systems/input_inactive-dark.svg</inactive>
+      <active>./../systems/input_active-dark.svg</active>
     </menuTextEdit>
   </view>
 
   <!--Configurações da view "grid"-->
   <view name="grid">
     <imagegrid name="gamegrid">
-      <gameImage>./_inc/systems/icons/cartridge-dark.png</gameImage>
-      <folderImage>./_inc/systems/icons/folder-dark.png</folderImage>
+      <gameImage>./../systems/icons/cartridge-dark.png</gameImage>
+      <folderImage>./../systems/icons/folder-dark.png</folderImage>
     </imagegrid>
 
     <text name="gridtile">

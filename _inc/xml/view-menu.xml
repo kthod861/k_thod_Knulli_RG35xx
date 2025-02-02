@@ -25,18 +25,18 @@
     </menuText>
 
     <menuBackground name="menubg">
-      <fadePath>./_inc/systems/fade.png</fadePath>
+      <fadePath>./../systems/fade.png</fadePath>
       <size>1 1</size>
     </menuBackground>
 
     <menuButton name="menubutton">
-      <path>./_inc/systems/button-normal.png</path>
-      <filledPath>./_inc/systems/button-hover.png</filledPath>
+      <path>./../systems/button-normal.png</path>
+      <filledPath>./../systems/button-hover.png</filledPath>
     </menuButton>
 
     <menuSwitch name="menuswitch">
-      <pathOn>./_inc/systems/switch-on.svg</pathOn>
-      <pathOff>./_inc/systems/switch-off.svg</pathOff>
+      <pathOn>./../systems/switch-on.svg</pathOn>
+      <pathOff>./../systems/switch-off.svg</pathOff>
     </menuSwitch>
 
     <menuText name="menufooter">
@@ -45,21 +45,21 @@
     </menuText>
 
     <menuIcons name="menuicons">
-      <iconSystem>./_inc/systems/icons/cog.svg</iconSystem>
-      <iconUpdates>./_inc/systems/icons/update.svg</iconUpdates>
-      <iconControllers>./_inc/systems/icons/gamepad-round.svg</iconControllers>
-      <iconGames>./_inc/systems/icons/gamepad-square.svg</iconGames>
-      <iconUI>./_inc/systems/icons/brush.svg</iconUI>
-      <iconSound>./_inc/systems/icons/volume-high.svg</iconSound>
-      <iconNetwork>./_inc/systems/icons/wifi-strength-3.svg</iconNetwork>
-      <iconScraper>./_inc/systems/icons/image.svg</iconScraper>
-      <iconAdvanced>./_inc/systems/icons/library-shelves.svg</iconAdvanced>
-      <iconQuit>./_inc/systems/icons/exit-to-app.svg</iconQuit>
-      <iconRetroachievements>./_inc/systems/icons/trophy.svg</iconRetroachievements>
-      <iconKodi>./_inc/systems/icons/kodi.svg</iconKodi>
-      <iconRestart>./_inc/systems/icons/restart.svg</iconRestart>
-      <iconShutdown>./_inc/systems/icons/power.svg</iconShutdown>
-      <iconFastShutdown>./_inc/systems/icons/power.svg</iconFastShutdown>
+      <iconSystem>./../systems/icons/cog.svg</iconSystem>
+      <iconUpdates>./../systems/icons/update.svg</iconUpdates>
+      <iconControllers>./../systems/icons/gamepad-round.svg</iconControllers>
+      <iconGames>./../systems/icons/gamepad-square.svg</iconGames>
+      <iconUI>./../systems/icons/brush.svg</iconUI>
+      <iconSound>./../systems/icons/volume-high.svg</iconSound>
+      <iconNetwork>./../systems/icons/wifi-strength-3.svg</iconNetwork>
+      <iconScraper>./../systems/icons/image.svg</iconScraper>
+      <iconAdvanced>./../systems/icons/library-shelves.svg</iconAdvanced>
+      <iconQuit>./../systems/icons/exit-to-app.svg</iconQuit>
+      <iconRetroachievements>./../systems/icons/trophy.svg</iconRetroachievements>
+      <iconKodi>./../systems/icons/kodi.svg</iconKodi>
+      <iconRestart>./../systems/icons/restart.svg</iconRestart>
+      <iconShutdown>./../systems/icons/power.svg</iconShutdown>
+      <iconFastShutdown>./../systems/icons/power.svg</iconFastShutdown>
     </menuIcons>
   </view>
 

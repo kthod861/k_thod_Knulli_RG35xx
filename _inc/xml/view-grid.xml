@@ -27,7 +27,7 @@
 		
 			extra="true"
 			zIndex="600"
-			path="./../parts/white.png"
+			path="./../systems/white.png"
 			origin="0.5 0.5"
 			size="${v.frame.size}"
 			pos="${v.frame.pos}"
@@ -39,7 +39,7 @@
 		
 			extra="true"
 			zIndex="599"
-			path="./../parts/white.png"
+			path="./../systems/white.png"
 			origin="0.5 0.5"
 			size="${v.frameBorders.size}"
 			pos="${v.frame.pos}"
@@ -52,7 +52,7 @@
 			extra="true"
 			linearSmooth="true"
 			zIndex="598"
-			path="./../parts/frameShadow.png"
+			path="./../systems/frameShadow.png"
 			origin="0.5 0.5"
 			pos="0.5 0.5"
 			size="1 1"
@@ -76,7 +76,7 @@
 			autoLayoutSelectedZoom="1.01"
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
-			scrollSound="./../parts/scroll.wav"
+			scrollSound="./../systems/scroll.wav"
 
 		/>
 
@@ -143,7 +143,7 @@
 
 		<image name="gridtile.favorite"
 		
-			path="./../parts/favorite.png"
+			path="./../systems/favorite.png"
 			pos="0 0"
 			maxSize="0.2 0.2"
 			origin="0.5 0.5"
@@ -171,7 +171,7 @@
 			linearSmooth="true"
 			origin="0.5 0"
 			pos="0.8799479166666667 0.333"
-			path="./../parts/kid.svg"
+			path="./../systems/kid.svg"
 			maxSize="0.12 0.28"
 			color="${c.text}4d"
 			opacity="1"
@@ -191,7 +191,7 @@
 			linearSmooth="true"
 			origin="0.5 0"
 			pos="0.964 0.899"
-			path="./../parts/hidden.svg"
+			path="./../systems/hidden.svg"
 			maxSize="0.02 0.02"
 			opacity="0.9"
 					
