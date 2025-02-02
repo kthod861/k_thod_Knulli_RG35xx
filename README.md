@@ -1,4 +1,8 @@
 # k_thod_es_de_Knulli_RG35xx
+
+Todo: Repair wifi icon not showing up
+Todo: Finalize color tweaking
+
 A personnal modification of 
 
 [RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de) 
