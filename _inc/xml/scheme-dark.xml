@@ -28,7 +28,7 @@
 
   <!--Configurações de cores nas listas de jogos-->
   <view name="grid">
-    <text name="logoText, md_name">
+    <text name="logoText">
       <color>${fgColor}${percent.90}</color>
       <glowColor>${bgColor}${percent.10}</glowColor>
       <glowSize>1</glowSize>

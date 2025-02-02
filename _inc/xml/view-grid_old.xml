@@ -5,15 +5,7 @@
 	<formatVersion>7</formatVersion>
 	
 	<view name="grid">
-		<text name="md_name">
-		  <fontSize>${fontSizeBody}</fontSize>
-		  <fontPath>${fontRegular}</fontPath>
-		  <pos>0.033333 0.1</pos>      <!--480x320 / 16x 44y-->
-		  <origin>0 0.5</origin>      <!--vertical center-->
-		  <size>0.9 ${fontSizeBody-medium}</size>
-		  <alignment>left</alignment>
-		  <zIndex>5000</zIndex>
-		</text>
+
 		<image name="logo"
 		
 			zIndex="601"
