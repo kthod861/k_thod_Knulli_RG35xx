@@ -42,9 +42,7 @@
 			<iconColorDimmed>000000</iconColorDimmed>
 			<opacity>0</opacity>
 		</helpsystem>
-		<controllerActivity name="controllerActivity">
-			<visible>false</visible>
-		</controllerActivity>
+
 	</view>
 	
 	

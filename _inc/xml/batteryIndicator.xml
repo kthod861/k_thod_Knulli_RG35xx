@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+	<view name="screen">
+
+		<text name="clock">
+
+			<pos>1 1</pos>
+		</text>
+	
+		<batteryIndicator name="batteryIndicator"
+
+			visible="false"
+		/>
+		
+		<stackpanel name="batteryIndicatorExtra" extra="true"
+		
+			orientation="horizontal"
+			separator="2"
+			reverse="true"
+			size="0.58 0.045"
+			pos="0.4165 0"
+		>
+
+
+			<batteryText name="ss.batterytext"
+			
+				fontPath="./../fonts/${f.def}"
+				color="${c.text}"
+				fontSize="0.035"
+				
+			/>
+
+
+			<text name="ss.separator1"
+			
+				text="  "
+				ifSubset="batterybar:yes"
+				fontPath="./../fonts/${f.def}"
+				fontSize="0.017"
+				color="${c.text}"
+				
+			/>
+	
+			<batteryIcon name="ss.battery"
+			
+				ifSubset="batterybar:yes"
+				incharge="./../systems/batteryIndicator/incharge.svg"
+				full="./../systems/batteryIndicator/full.svg"
+				at75="./../systems/batteryIndicator/75.svg"
+				at50="./../systems/batteryIndicator/50.svg"
+				at25="./../systems/batteryIndicator/25.svg"
+				empty="./../systems/batteryIndicator/empty.svg"
+				planemodeIcon="./../systems/batteryIndicator/planemode.png"
+				maxSize="1 1"
+				linearSmooth="true"
+				color="${c.text}"
+				
+			/>
+		  
+			<text name="ss.separator2"
+			
+				text="  "
+				fontPath="./../fonts/${f.def}"
+				fontSize="0.017"
+				color="${c.text}"
+				
+			/>
+		  
+			<networkIcon name="ss.network"
+			
+				networkIcon="./../systems/icons/Network.png"
+				planemodeIcon="./../systems/icons/Planemode.png"
+				maxSize="1 1"
+				linearSmooth="true"
+				color="${c.text}"
+				
+			/>
+	  
+		</stackpanel>
+
+		<stackpanel name="systemClockPanel" orientation="horizontal" size="0.58 0.045" pos="0 0">
+
+
+			<clock name="system-clock"
+				fontPath="./../fonts/${f.def}"
+				color="${c.text}"
+				fontSize="0.035"
+			/>
+
+		</stackpanel>
+
+	</view>
+	
+</theme>

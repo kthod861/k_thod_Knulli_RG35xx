@@ -157,10 +157,8 @@
       <color>FFFFFF</color>
     </batteryIndicator>
 
-    <controllerActivity name="controllerActivity">
-      <color>${fgColor}${percent.30}</color>
-      <activityColor>${mainColor}${percent.70}</activityColor>
-      <hotkeyColor>${mainColor}</hotkeyColor>
-    </controllerActivity>
+	<controllerActivity name="controllerActivity">
+		<visible>false</visible>
+	</controllerActivity>
   </view>
 </theme>
