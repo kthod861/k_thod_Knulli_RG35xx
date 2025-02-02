@@ -13,9 +13,7 @@
       <autoLayout>3 2</autoLayout>
       <scrollLoop>false</scrollLoop>
 
-      <imageSource ifSubset="Grid Game Image:gridscreenshot">image</imageSource>
       <imageSource ifSubset="Grid Game Image:gridthumbnail">thumbnail</imageSource>
-      <imageSource ifSubset="Grid Game Image:gridlogo">marquee</imageSource>
 
       <pos>0 0.2</pos>      <!-- 480x320 / 0x 64y-->
       <size>1 0.8</size>      <!--480x320 / 480x 256y-->
@@ -25,12 +23,6 @@
       <zIndex>5</zIndex>
     </imagegrid>
 
-    <text name="logoText">
-      <pos>0.033333 0.078125</pos>      <!--480x320 / 16x 25y-->
-      <origin>0 0.5</origin>
-      <size>0.675 ${fontSizeH2-medium}</size>
-      <zIndex>5</zIndex>
-    </text>
 
     <text name="md_name">
       <fontSize>${fontSizeBody}</fontSize>
@@ -45,7 +37,6 @@
     <gridtile name="default, selected">
       <selectionMode>full</selectionMode>
       <imageSizeMode ifSubset="Grid Game Image:gridscreenshot|gridthumbnail">minSize</imageSizeMode>
-      <imageSizeMode ifSubset="Grid Game Image:gridlogo">maxSize</imageSizeMode>
     </gridtile>
 
     <gridtile name="default">
@@ -76,14 +67,13 @@
 
     <text name="gridtile">
       <fontSize>${fontSizeCaption}</fontSize>
-
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
       <singleLineScroll>false</singleLineScroll>
       <lineSpacing>1.1</lineSpacing>
-
       <size ifSubset="Ratio:ratio32">0.92 0.225</size>
       <padding ifSubset="Ratio:ratio32">0.04 0</padding>
+	  <visible>false</visible>
     </text>
 
     <rating name="md_rating">
