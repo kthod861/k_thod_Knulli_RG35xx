@@ -1,6 +1,6 @@
-<theme>
+<theme defaultView="grid">
 	<formatVersion>7</formatVersion>
-	<view name="grid,basic"></view>
+	<!--<view name="grid,detailed"></view>-->
 	<include>./_inc/xml/variables.xml</include>
 	<include>./_inc/xml/batteryIndicator.xml</include>
 	<include>./_inc/xml/scheme-dark.xml</include>
