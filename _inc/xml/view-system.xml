@@ -7,7 +7,8 @@
 		<systemInfoColor>DDDDDDD8</systemInfoColor>
 		<fontRegular>./_inc/fonts/Inter-Regular.otf</fontRegular>
 	</variables>
-	<view name="system,grid">
+	
+	<view name="system">
 		<!-- Background-->
 		<image name="background_color" extra="true">
 			<path>./_inc/systems/artwork/${system.theme}.jpg</path>
@@ -17,10 +18,7 @@
 			<opacity>${bgOpacity}</opacity>
 			<zIndex>2</zIndex>
 		</image>
-	</view>
-	
-	
-	<view name="system">
+		
 		<image name="lines" extra="static">
 			<origin>0 0</origin>
 			<pos>0 0</pos>

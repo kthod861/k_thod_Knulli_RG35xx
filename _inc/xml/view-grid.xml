@@ -5,6 +5,17 @@
 	<formatVersion>7</formatVersion>
 	
 	<view name="grid">
+
+		<!-- Background-->
+		<image name="background_color" extra="true">
+			<path>./_inc/systems/artwork/${system.theme}.jpg</path>
+			<origin>0 0</origin>
+			<pos>0 .20</pos>
+			<size>1 1</size>
+			<opacity>${bgOpacity}</opacity>
+			<zIndex>2</zIndex>
+		</image>
+
 		<!-- game name-->
 		<text name="md_name">
 		  <fontSize>0.025</fontSize>
