@@ -24,7 +24,6 @@
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./_inc/images/Lines.png</path>
-			<!--<opacity>${bgOpacity}</opacity>-->
 			<color>838383</color>
 			<zIndex>200</zIndex>
 		</image>

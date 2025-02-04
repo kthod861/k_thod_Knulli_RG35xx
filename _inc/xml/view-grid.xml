@@ -20,8 +20,8 @@
 		<text name="md_name">
 		  <fontSize>0.025</fontSize>
 		  <fontPath>${fontRegular}</fontPath>
-		  <pos>0.033333 0.13</pos>      <!--480x320 / 16x 44y-->
-		  <origin>0 0.5</origin>      <!--vertical center-->
+		  <pos>0.033333 0.13</pos>
+		  <origin>0 0.5</origin>
 		  <size>0.7 ${fontSizeBody-medium}</size>
 		  <alignment>left</alignment>
 		  <zIndex>5000</zIndex>
@@ -70,7 +70,7 @@
 			singleLineScroll="true"
 			autoScrollDelay="0"
 		>
-			<visible ifSubset="gridGameName:no">false</visible>
+			<visible>false</visible>
 		</text>
 
 
