@@ -5,7 +5,19 @@
 	<formatVersion>7</formatVersion>
 	
 	<view name="grid">
-
+		<!-- System name -->
+		<image name="logo">
+			<pos>0.4 0.05</pos>
+			<origin>0 0</origin>
+			<horizontalAlignment>center</horizontalAlignment>
+			<verticalAlignment>center</verticalAlignment>
+			<scale>0.3 </scale>
+			<maxSize>0.8 0.3</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.png</path>
+			<opacity>0.3</opacity>
+			<zIndex>4000</zIndex>
+		</image>
+		<!--
 		<text name="logoText">
 			<origin>0 0.5</origin>
 			<pos>0.033333 0.078125</pos>
@@ -14,7 +26,24 @@
 			<color>${fgColor}${percent.90}</color>
 			<alignment>left</alignment>
 		</text>
+		-->
+		
+		<!-- game name-->
 
+		<text name="md_name">
+			<fontSize>0.025</fontSize>
+			<fontPath>${fontRegular}</fontPath>
+			<pos>0.04 0.10</pos>
+			<origin>0 0.5</origin>
+			<size>0.7 ${fontSizeBody-small}</size>
+			<alignment>left</alignment>
+			<singleLineScroll>true</singleLineScroll>
+			<color>${fgColor}</color>
+			<zIndex>5000</zIndex>
+		</text>
+
+		
+		
 		<textlist name="gamelist">
 			<selectedColor>${onMainColor}</selectedColor>
 			<selectorColor>${mainColor}</selectorColor>
@@ -37,16 +66,7 @@
 			<zIndex>2</zIndex>
 		</image>
 
-		<!-- game name-->
-		<text name="md_name">
-		  <fontSize>0.025</fontSize>
-		  <fontPath>${fontRegular}</fontPath>
-		  <pos>0.033333 0.13</pos>
-		  <origin>0 0.5</origin>
-		  <size>0.7 ${fontSizeBody-small}</size>
-		  <alignment>left</alignment>
-		  <zIndex>5000</zIndex>
-		</text>
+
 		
 
 		<!--actual game grid -->

@@ -61,10 +61,10 @@
 		<c.base>121212</c.base>
 		<c.scroll>808080</c.scroll>
 		<c.menubg>162224</c.menubg>
-		<c.textHeader>CACA6E</c.textHeader>
+		<c.textHeader>6ecaca</c.textHeader>
 		<c.main>4e97d1</c.main>
-		<c.menuSelector>52611B</c.menuSelector>
-		<ce.menuSelector>CACA6E</ce.menuSelector>
+		<c.menuSelector>1b5261</c.menuSelector>
+		<ce.menuSelector>6ecaca</ce.menuSelector>
 		<v.gamelist.fontSize>0.024</v.gamelist.fontSize>
 		<v.gamelistGrid.size>0.95 0.85</v.gamelistGrid.size>
 		<v.gameDescription.size>0.160</v.gameDescription.size>
