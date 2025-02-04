@@ -1,12 +1,6 @@
 <theme>
   <formatVersion>7</formatVersion>
-	<variables>
-		<bgColor>000000</bgColor>
-		<bgOpacity>0.7</bgOpacity>
-		<glowColor>Ab000020</glowColor>
-		<systemInfoColor>DDDDDDD8</systemInfoColor>
-		<fontRegular>./_inc/fonts/Inter-Regular.otf</fontRegular>
-	</variables>
+
 	
 	<view name="system">
 		<!-- Background-->

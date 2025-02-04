@@ -22,7 +22,7 @@
 		  <fontPath>${fontRegular}</fontPath>
 		  <pos>0.033333 0.13</pos>
 		  <origin>0 0.5</origin>
-		  <size>0.7 ${fontSizeBody-medium}</size>
+		  <size>0.7 ${fontSizeBody-small}</size>
 		  <alignment>left</alignment>
 		  <zIndex>5000</zIndex>
 		</text>
@@ -40,7 +40,7 @@
 			centerSelection="false"
 			scrollbarColor="${c.textHeader}"
 			scrollbarSize="${v.ScrollBar}"
-			autoLayoutSelectedZoom="1.2"
+			autoLayoutSelectedZoom="1.15"
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
 			scrollSound="./../systems/scroll.wav"
