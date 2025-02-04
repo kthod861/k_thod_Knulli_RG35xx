@@ -14,47 +14,16 @@
     <fgColor>FFFFFF</fgColor>
   </variables>
 
-  <!--Configurações de ajuda-->
+
   <view name="system,grid">
-    <helpsystem name="help">
-      <textColor>${fgColor}</textColor>
-      <iconColor>${sectColor}</iconColor>
-	  <pos>10 10</pos>
+	<helpsystem name="help">
+		<textColor>${fgColor}</textColor>
+		<iconColor>${sectColor}</iconColor>
+		<pos>10 10</pos>
+	</helpsystem>
 
-    </helpsystem>
-
-    <image name="background">
-      <color>${bgColor}</color>
-    </image>
   </view>
 
-  <!--Configurações de cores nas listas de jogos-->
-  <view name="grid">
-		<text name="logoText">
-		<origin>0 0.5</origin>
-		<pos>0.033333 0.078125</pos>
-		<fontSize>${fontSizeH3}</fontSize> 
-		<fontPath>${fontBold}</fontPath>
-		<color>${fgColor}${percent.90}</color>
-		<alignment>left</alignment>
-    </text>
-
-    <textlist name="gamelist">
-      <selectedColor>${onMainColor}</selectedColor>
-      <selectorColor>${mainColor}</selectorColor>
-      <primaryColor>${fgColor}</primaryColor>
-      <secondaryColor>${fgColor}</secondaryColor>
-    </textlist>
-
-    <!--<rating name="md_rating">
-      <color>${sectColor}</color>
-      <unfilledColor>${sectColor}</unfilledColor>
-    </rating>-->
-
-    <image name="custom_bg_fg" extra="true">
-      <color>${bgColor}</color>
-    </image>
-  </view>
 
   <view name="menu">
     <menuText name="menutext">
@@ -90,22 +59,6 @@
       <inactive>./../systems/input_inactive-dark.svg</inactive>
       <active>./../systems/input_active-dark.svg</active>
     </menuTextEdit>
-  </view>
-
-  <!--Configurações da view "grid"-->
-  <view name="grid">
-    <imagegrid name="gamegrid">
-      <gameImage>./../systems/icons/cartridge-dark.png</gameImage>
-      <folderImage>./../systems/icons/folder-dark.png</folderImage>
-    </imagegrid>
-
-    <text name="gridtile">
-      <color>${fgColor}</color>
-    </text>
-
-    <text name="gridtile:selected">
-      <color>${onMainColor}</color>
-    </text>
   </view>
 
 

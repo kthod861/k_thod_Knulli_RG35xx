@@ -6,6 +6,27 @@
 	
 	<view name="grid">
 
+		<text name="logoText">
+			<origin>0 0.5</origin>
+			<pos>0.033333 0.078125</pos>
+			<fontSize>${fontSizeH3}</fontSize> 
+			<fontPath>${fontBold}</fontPath>
+			<color>${fgColor}${percent.90}</color>
+			<alignment>left</alignment>
+		</text>
+
+		<textlist name="gamelist">
+			<selectedColor>${onMainColor}</selectedColor>
+			<selectorColor>${mainColor}</selectorColor>
+			<primaryColor>${fgColor}</primaryColor>
+			<secondaryColor>${fgColor}</secondaryColor>
+		</textlist>
+
+		<image name="custom_bg_fg" extra="true">
+			<color>${bgColor}</color>
+		</image>
+
+
 		<!-- Background-->
 		<image name="background_color" extra="true">
 			<path>./_inc/systems/artwork/${system.theme}.jpg</path>
@@ -48,7 +69,6 @@
 		
 		<!-- each game -->
 		<gridtile name="default"
-		
 			backgroundColor="00000000"
 			backgroundEdgeColor="00000000"
 			backgroundCenterColor="00000000"
@@ -58,7 +78,6 @@
 			padding="6 6"
 			imageColor="ffffff"
 			reflexion="0 0"
-			
 		/>
 		<!-- each game name hidden-->
 		<text name="gridtile"
@@ -80,6 +99,7 @@
 			roundCorners="0.08"
 			
 		/>
+
 	</view>
 
 </theme>
