@@ -27,63 +27,16 @@
 			<opacity>1</opacity>
 			<zIndex>3</zIndex>
 		</image>
-		<!-- Help
-		<helpsystem name="help">
-			<origin>0 0.5</origin>
-			<pos>0.016666667 0.96</pos>
-			<fontSize>${fontSizeBody}</fontSize>
-			<fontSizeDimmed>${fontSizeBody}</fontSizeDimmed>
-			<fontPath>${fontHelper}</fontPath>
-			<iconColor>000000</iconColor>
-			<textColor>000000</textColor>
-			<originDimmed>0.5 0.5</originDimmed>
-			<posDimmed>0.5 0.96</posDimmed>
-			<textColorDimmed>000000</textColorDimmed>
-			<iconColorDimmed>000000</iconColorDimmed>
-			<opacity>0</opacity>
-		</helpsystem>-->
-
 	</view>
 	
 	
 	<view name="system">
-		<!-- System view Lines-->
-		<image name="lineUpperLeft" extra="static">
+		<image name="lines" extra="static">
 			<origin>0 0</origin>
-			<pos>0 0.6</pos>
-			<size>0.2 0.007</size>
-			<path>./_inc/images/Left_Line.png</path>
-			<color>838383</color>
-			<opacity>${bgOpacity}</opacity>
-			<zIndex>200</zIndex>
-		</image>
-
-		<image name="lineLowerLeft" extra="static">
-			<origin>0 0</origin>
-			<pos>0 0.859</pos>
-			<size>0.15 0.007</size>
-			<path>./_inc/images/Left_Line.png</path>
-			<opacity>${bgOpacity}</opacity>
-			<color>838383</color>
-			<zIndex>200</zIndex>
-		</image>
-
-		<image name="lineUpperRight" extra="static">
-			<origin>-4 0</origin>
-			<pos>0 0.6</pos>
-			<size>0.2 0.007</size>
-			<path>./_inc/images/Right_Line.png</path>
-			<opacity>${bgOpacity}</opacity>
-			<color>838383</color>
-			<zIndex>200</zIndex>
-		</image>
-
-		<image name="lineLowerRight" extra="static">
-			<origin>-5.65 0</origin>
-			<pos>0 0.859</pos>
-			<size>0.15 0.007</size>
-			<path>./_inc/images/Right_Line.png</path>
-			<opacity>${bgOpacity}</opacity>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/images/Lines.png</path>
+			<!--<opacity>${bgOpacity}</opacity>-->
 			<color>838383</color>
 			<zIndex>200</zIndex>
 		</image>
