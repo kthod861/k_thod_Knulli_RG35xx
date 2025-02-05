@@ -5,6 +5,14 @@
 	<formatVersion>7</formatVersion>
 	
 	<view name="grid">
+		<image name="lines" extra="static">
+			<origin>0 0</origin>
+			<pos>0 -.72</pos>
+			<size>1 1</size>
+			<path>./_inc/images/Lines.png</path>
+			<!--<color>838383</color>-->
+			<zIndex>200</zIndex>
+		</image>
 		<!-- System name -->
 		<image name="logo">
 			<pos>0.4 0.05</pos>
@@ -14,9 +22,10 @@
 			<scale>0.3 </scale>
 			<maxSize>0.8 0.3</maxSize>
 			<path>./_inc/systems/logos/${system.theme}.png</path>
-			<opacity>0.3</opacity>
-			<zIndex>4000</zIndex>
-			<reflexion>0.7 0.5</reflexion>
+			<!--<opacity>0.3</opacity>-->
+			<zIndex>10</zIndex>
+			<reflexion>0.3 0.1</reflexion>
+			<linearSmooth>true</linearSmooth>
 		</image>
 		<!--
 		<text name="logoText">
@@ -34,13 +43,16 @@
 		<text name="md_name">
 			<fontSize>0.025</fontSize>
 			<fontPath>${fontRegular}</fontPath>
-			<pos>0.04 0.10</pos>
+			<pos>0.03 0.10</pos>
 			<origin>0 0.5</origin>
 			<size>0.7 ${fontSizeBody-small}</size>
 			<alignment>left</alignment>
 			<singleLineScroll>true</singleLineScroll>
 			<color>${fgColor}</color>
 			<zIndex>5000</zIndex>
+			<w>0.35</w>
+			<autoScroll>horizontal</autoScroll>
+			<autoScrollDelay>0.01</autoScrollDelay>
 		</text>
 
 		
@@ -73,7 +85,7 @@
 		<!--actual game grid -->
 		<imagegrid name="gamegrid"
 			zIndex="1001"
-			pos="0.025 0.15"
+			pos="0.015 0.15"
 			size="${v.gamelistGrid.size}"
 			margin="0.02 0.02"
 			padding="0.02 0.02 0.02 0.02"
@@ -97,7 +109,7 @@
 			backgroundCornerSize="9 9"
 			selectionMode="image"
 			imageSizeMode="maxSize"
-			padding="3 3"
+			padding="2 2"
 			imageColor="ffffff"
 		/>
 		<!-- each game name hidden-->
@@ -120,8 +132,6 @@
 			imageColor="ffffff"
 			
 		/>
-
-
 
 		<image name="gridtile.image"
 			linearSmooth="true"

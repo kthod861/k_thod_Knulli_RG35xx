@@ -33,7 +33,7 @@
 		<v.frameLeft.x>0.22</v.frameLeft.x>
 		<v.frameRight.x>0.705</v.frameRight.x>
 		<v.frame.y>0.50</v.frame.y>
-		<v.frame.w>0.95</v.frame.w>
+		<v.frame.w>0.98</v.frame.w>
 		<v.frameLeft.w>0.39</v.frameLeft.w>
 		<v.frameRight.w>0.54</v.frameRight.w>
 		<v.frame.h>0.85</v.frame.h>
@@ -66,11 +66,8 @@
 		<c.menuSelector>1b5261</c.menuSelector>
 		<ce.menuSelector>6ecaca</ce.menuSelector>
 		<v.gamelist.fontSize>0.024</v.gamelist.fontSize>
-		<v.gamelistGrid.size>0.95 0.85</v.gamelistGrid.size>
+		<v.gamelistGrid.size>0.98 0.85</v.gamelistGrid.size>
 		<v.gameDescription.size>0.160</v.gameDescription.size>
-		<v.playTime.size>0.100</v.playTime.size>
-		<v.video.pos>0.705 0.70</v.video.pos>
-		<v.marqueeMax.size>0.50 0.12</v.marqueeMax.size>
 		<c.text>ffffff</c.text>
 		<c.selected>000000</c.selected>
 		<v.lines>12</v.lines>

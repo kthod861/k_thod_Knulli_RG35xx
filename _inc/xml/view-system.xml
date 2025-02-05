@@ -51,8 +51,6 @@
 			<transitionSpeed>1200</transitionSpeed>
 			<systemInfoDelay>0</systemInfoDelay>
 			<scaledLogoSpacing>0.4</scaledLogoSpacing>
-			
-			
 		</carousel>
 
 		<control name="logo,logoText" scale="1" >
