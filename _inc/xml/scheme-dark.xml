@@ -1,26 +1,24 @@
-
 <theme>
-  <formatVersion>7</formatVersion>
+	<formatVersion>7</formatVersion>
 
-  <variables>
-    <mainColor>4075F9</mainColor>
-    <onMainColor>1D1B16</onMainColor>
-    <bgColor>1D1B16</bgColor>
-    <sectColor>94A0FF</sectColor>
-    <fgColor>FFFFFF</fgColor>
-  </variables>
+	<variables>
+		<mainColor>4075F9</mainColor>
+		<onMainColor>1D1B16</onMainColor>
+		<bgColor>1D1B16</bgColor>
+		<sectColor>94A0FF</sectColor>
+		<fgColor>FFFFFF</fgColor>
+	</variables>
 
-
-  <view name="system,grid">
+	<!-- Move help away -->
+	<view name="system,grid">
 	<helpsystem name="help">
 		<textColor>${fgColor}</textColor>
 		<iconColor>${sectColor}</iconColor>
 		<pos>10 10</pos>
 	</helpsystem>
+	</view>
 
-  </view>
-
-
+	<!-- Menu tweaks -->
   <view name="menu">
     <menuText name="menutext">
       <selectedColor>${onMainColor}</selectedColor>
@@ -57,58 +55,89 @@
     </menuTextEdit>
   </view>
 
+	<!-- MBattery and clock tweaks -->
+	<view name="screen">
+		<batteryIndicator name="batteryIndicator">
+		<color>FFFFFF</color>
+		</batteryIndicator>
+		
+		<batteryIndicator name="batteryIndicator"
+			visible="false"
+		/>
+		
+		<controllerActivity name="controllerActivity">
+			<visible>false</visible>
+		</controllerActivity>
+
+		<text name="clock">
+			<pos>1 1</pos>
+		</text>
 
 
-  <!-- Carousel Config -->
-  <view name="system">
-    <carousel name="systemcarousel">
-      <color>${bgColor}00</color>
-    </carousel>
+		<stackpanel name="batteryIndicatorExtra" extra="true"
+			orientation="horizontal"
+			separator="2"
+			reverse="true"
+			size="0.58 0.045"
+			pos="0.4165 0"
+		>
 
-    <!-- System Name -->
-    <text name="systemName">
-      <color>${fgColor}${percent.90}</color>
-      <glowColor>${bgColor}${percent.10}</glowColor>
-      <glowSize>1</glowSize>
-    </text>
+			<batteryText name="ss.batterytext"
+				fontPath="./../fonts/${f.def}"
+				color="${c.text}"
+				fontSize="0.035"
+				
+			/>
 
-    <!-- Total games per system -->
-    <text name="systemInfo">
-      <color>${fgColor}${percent.90}</color>
-      <glowColor>${bgColor}${percent.10}</glowColor>
-      <glowSize>1</glowSize>
-    </text>
+			<text name="ss.separator1"
+			
+				text="  "
+				ifSubset="batterybar:yes"
+				fontPath="./../fonts/${f.def}"
+				fontSize="0.017"
+				color="${c.text}"
+			/>
+	
+			<batteryIcon name="ss.battery"
+			
+				ifSubset="batterybar:yes"
+				incharge="./../systems/batteryIndicator/incharge.svg"
+				full="./../systems/batteryIndicator/full.svg"
+				at75="./../systems/batteryIndicator/75.svg"
+				at50="./../systems/batteryIndicator/50.svg"
+				at25="./../systems/batteryIndicator/25.svg"
+				empty="./../systems/batteryIndicator/empty.svg"
+				planemodeIcon="./../systems/batteryIndicator/planemode.png"
+				maxSize="1 1"
+				linearSmooth="true"
+				color="${c.text}"
+				
+			/>
+			<text name="ss.separator2"
+				text="  "
+				fontPath="./../fonts/${f.def}"
+				fontSize="0.017"
+				color="${c.text}"
+			/>
+		  
+			<networkIcon name="ss.network"
+				networkIcon="./../systems/icons/Network.png"
+				planemodeIcon="./../systems/icons/Planemode.png"
+				maxSize="1 1"
+				linearSmooth="true"
+				color="${c.text}"
+			/>
+	  
+		</stackpanel>
+		<stackpanel name="systemClockPanel" orientation="horizontal" size="0.58 0.045" pos="0.005 0.005">
+			<clock name="system-clock"
+				fontPath="./../fonts/${f.def}"
+				color="${c.text}"
+				fontSize="0.025"
+			/>
+			
+		</stackpanel>
 
-    <!-- System Background -->
-    <image name="cover_fallback" extra="true">
-      <color>${bgColor}</color>
-    </image>
+	</view>
 
-    <image name="custom_bg_fg" extra="true">
-      <color>${bgColor}</color>
-    </image>
-
-    <text name="logoText">
-      <color>${fgColor}</color>
-      <glowColor>${mainColor}${percent.10}</glowColor>
-      <glowSize>1</glowSize>
-    </text>
-  </view>
-
-  <view name="system, grid">
-    <image name="osdBackground" extra="true">
-      <color>000000</color>
-    </image>
-  </view>
-
-
-  <view name="screen">
-    <batteryIndicator name="batteryIndicator">
-      <color>FFFFFF</color>
-    </batteryIndicator>
-
-	<controllerActivity name="controllerActivity">
-		<visible>false</visible>
-	</controllerActivity>
-  </view>
 </theme>

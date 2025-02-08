@@ -1,19 +1,8 @@
 <theme defaultView="grid">
 	<formatVersion>7</formatVersion>
-	<!--<view name="grid,detailed"></view>-->
 	<include>./_inc/xml/variables.xml</include>
-	<include>./_inc/xml/batteryIndicator.xml</include>
 	<include>./_inc/xml/scheme-dark.xml</include>
 	<include>./_inc/xml/view-menu.xml</include>
 	<include>./_inc/xml/view-system.xml</include>
 	<include>./_inc/xml/view-grid.xml</include>
-   <view name="screen">
-      <controllerActivity name="controllerActivity">
-         <visible>false</visible>
-      </controllerActivity>
-      <batteryIndicator name="batteryIndicator">
-         <visible>false</visible>
-      </batteryIndicator>
-   </view>
-   
 </theme>

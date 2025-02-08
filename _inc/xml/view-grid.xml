@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <theme>
-
 	<formatVersion>7</formatVersion>
 	
 	<view name="grid">
+		<!-- white lines -->
 		<image name="lines" extra="static">
 			<origin>0 0</origin>
 			<pos>0 -.72</pos>
 			<size>1 1</size>
 			<path>./_inc/images/Lines.png</path>
-			<!--<color>838383</color>-->
 			<zIndex>200</zIndex>
 		</image>
 		<!-- System logo -->
@@ -22,12 +19,10 @@
 			<scale>0.3 </scale>
 			<maxSize>0.8 0.3</maxSize>
 			<path>./_inc/systems/logos/${system.theme}.png</path>
-			<!--<opacity>0.3</opacity>-->
 			<zIndex>10</zIndex>
 			<reflexion>0.3 0.1</reflexion>
 			<linearSmooth>true</linearSmooth>
 		</image>
-
 		<!-- game name-->
 		<text name="md_name">
 			<fontSize>0.025</fontSize>
@@ -43,8 +38,7 @@
 			<autoScroll>horizontal</autoScroll>
 			<autoScrollDelay>0.01</autoScrollDelay>
 		</text>
-
-		<!-- date-->
+		<!-- release date-->
 		<datetime name="md_releasedate">
 			<pos>0.03 0.065</pos>
 			<origin>0 0.5</origin>
@@ -57,7 +51,6 @@
 			<value>...</value>
 			<zIndex>4000</zIndex>
 		</datetime>
-		
 		<!-- rating-->
 		<rating name="md_rating">
 			<pos>0.08 0.065</pos>
@@ -70,18 +63,6 @@
 			<zIndex>15</zIndex>
 		</rating>
 
-		<textlist name="gamelist">
-			<selectedColor>${onMainColor}</selectedColor>
-			<selectorColor>${mainColor}</selectorColor>
-			<primaryColor>${fgColor}</primaryColor>
-			<secondaryColor>${fgColor}</secondaryColor>
-		</textlist>
-
-		<image name="custom_bg_fg" extra="true">
-			<color>${bgColor}</color>
-		</image>
-
-
 		<!-- Background-->
 		<image name="background_color" extra="true">
 			<path>./_inc/systems/artwork/${system.theme}.jpg</path>
@@ -91,9 +72,6 @@
 			<opacity>0.4</opacity>
 			<zIndex>2</zIndex>
 		</image>
-
-
-		
 
 		<!--actual game grid -->
 		<imagegrid name="gamegrid"
@@ -138,7 +116,7 @@
 			<visible>false</visible>
 		</text>
 		
-		
+		<!-- selected behavior-->
 		<gridtile name="selected"
 			backgroundCenterColor="ffffff59"
 			backgroundEdgeColor="ffffff59"
@@ -151,8 +129,8 @@
 			roundCorners="0.03"
 			
 		/>
+		<!-- favorites -->
 		<image name="gridtile.favorite"
-		
 			path="./../images/favorite.png"
 			pos="0.2 0.2"
 			maxSize="0.2 0.2"
@@ -162,6 +140,11 @@
 			>
 			<reflexion>0.7 0.5</reflexion>
 		</image>
+		<!-- default cartridge -->
+		<imagegrid name="gamegrid">
+			<gameImage>./../systems/icons/cartridge-dark.png</gameImage>
+			<folderImage>./../systems/icons/folder-dark.png</folderImage>
+		</imagegrid>
 	</view>
 
 </theme>
