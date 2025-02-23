@@ -27,7 +27,7 @@
     </image>
     <text name="label">
       <alignment>center</alignment>
-      <fontPath>./_inc/fonts/Inter-Regular.otf</fontPath>
+      <fontPath>./_inc/fonts/font.otf</fontPath>
       <fontSize>0.0375</fontSize> <!-- 12-->
       <color>ffffff</color>
       <origin>0.5 1</origin>

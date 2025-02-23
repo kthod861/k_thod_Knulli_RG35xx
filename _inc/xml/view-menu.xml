@@ -10,7 +10,7 @@
     </menuText>
 
     <menuTextSmall name="menutextsmall">
-      <fontPath>${fontLight}</fontPath>
+      <fontPath>${fontRegular}</fontPath>
       <fontSize>${fontSizeCaption}</fontSize>
     </menuTextSmall>
 

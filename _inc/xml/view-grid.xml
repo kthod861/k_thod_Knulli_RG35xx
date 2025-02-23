@@ -105,7 +105,7 @@
 		/>
 		<!-- each game name hidden-->
 		<text name="gridtile"
-			fontPath="./../fonts/${f.def}"
+			fontPath="./../fonts/${fontRegular}"
 			fontSize="0.01"
 			color="${c.text}"
 			extraTextColor="${c.textHeader}"

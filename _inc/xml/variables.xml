@@ -8,9 +8,8 @@
 		<fontSizeBody>0.03125</fontSizeBody> <!-- 10 -->
 		<fontSizeCaption>0.028125</fontSizeCaption> <!-- 9 -->
 		<fontSizeBody-small>0.03125</fontSizeBody-small> <!-- 10 -->
-		<fontRegular>./../fonts/Inter-Regular.otf</fontRegular>
-		<fontBold>./../fonts/Inter-Bold.otf</fontBold>
-		<fontLight>./../fonts/Inter-Light.otf</fontLight>
+		<fontRegular>./../fonts/font.ttf</fontRegular>
+		<fontBold>./../fonts/font-bold.ttf</fontBold>
 		<percent.90>E6</percent.90>
 		<percent.80>CC</percent.80>
 		<percent.70>B3</percent.70>

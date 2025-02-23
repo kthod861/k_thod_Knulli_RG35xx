@@ -45,8 +45,8 @@
 			<itemScale>1.80</itemScale>
 			<minLogoOpacity>0.25</minLogoOpacity>
 			<logoScale>2</logoScale>
-			<transitionSpeed>1200</transitionSpeed>
-			<systemInfoDelay>0</systemInfoDelay>
+			<transitionSpeed>800</transitionSpeed>
+			<systemInfoDelay>100</systemInfoDelay>
 			<scaledLogoSpacing>0.4</scaledLogoSpacing>
 		</carousel>
 		<!-- Logo animation -->
