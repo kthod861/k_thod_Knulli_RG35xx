@@ -3,13 +3,22 @@
 
 	<view name="system">
 		<!-- Background-->
-		<image name="background_color" extra="true">
+		<image name="background_console" extra="true">
 			<path>./_inc/systems/artwork/${system.theme}.jpg</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<opacity>${bgOpacity}</opacity>
 			<zIndex>2</zIndex>
+		</image>
+		<image name="background_controler" extra="true">
+			<path>./_inc/systems/controllers/${system.theme}.png</path>
+			<origin>0.5 0</origin>
+			<pos>0.85 .3</pos>
+			<maxSize>.3 .3</maxSize>
+			<linearSmooth>true</linearSmooth>
+			<reflexion>0.3 0.0</reflexion>
+			<zIndex>3</zIndex>
 		</image>
 		<!-- whites lines -->
 		<image name="lines" extra="static">
