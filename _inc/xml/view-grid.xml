@@ -62,6 +62,49 @@
 			<horizontalAlignment>left</horizontalAlignment>
 			<zIndex>15</zIndex>
 		</rating>
+		<!-- play time -->
+		<text name="md_lbl_gametime">
+			<pos>0.7 0.05</pos>
+			<origin>0 0.5</origin>
+			<size>0.1 0.035</size>
+			<color>dddddd</color>
+			<forceUppercase>0</forceUppercase>
+			<alignment>left</alignment>
+			<fontSize>0.025</fontSize>
+			<zIndex>4000</zIndex>
+		</text>
+		<text name="md_gametime">
+			<pos>0.8 0.05</pos>
+			<origin>0 0.5</origin>
+			<size>0.1 0.035</size>
+			<color>dddddd</color>
+			<forceUppercase>0</forceUppercase>
+			<alignment>left</alignment>
+			<fontSize>0.025</fontSize>
+			<zIndex>4000</zIndex>
+		</text>
+		<!-- last played-->
+		<text name="md_lbl_lastplayed">
+			<pos>0.7 0.10</pos>
+			<origin>0 0.5</origin>
+			<size>0.1 0.035</size>
+			<color>dddddd</color>
+			<forceUppercase>0</forceUppercase>
+			<alignment>left</alignment>
+			<fontSize>0.025</fontSize>
+			<zIndex>4000</zIndex>
+		</text>		
+		<datetime name="md_lastplayed">
+			<pos>0.8 0.10</pos>
+			<origin>0 0.5</origin>
+			<size>0.1 0.035</size>
+			<color>dddddd</color>
+			<forceUppercase>0</forceUppercase>
+			<alignment>left</alignment>
+			<fontSize>0.025</fontSize>
+			<zIndex>4000</zIndex>
+		</datetime>
+
 
 		<!-- Background-->
 		<image name="background_color" extra="true">
