@@ -14,8 +14,8 @@
 		<image name="background_controler" extra="true">
 			<path>./_inc/systems/controllers/${system.theme}.png</path>
 			<origin>0.5 0</origin>
-			<pos>0.85 .3</pos>
-			<maxSize>.3 .3</maxSize>
+			<pos>0.9 .3</pos>
+			<maxSize>.28 .28</maxSize>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>3</zIndex>
 		</image>
@@ -25,7 +25,7 @@
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./_inc/images/Lines.png</path>
-			<color>838383</color>
+			<!--<color>838383</color>-->
 			<zIndex>200</zIndex>
 		</image>
 		<!-- System view Logos overides-->
@@ -36,7 +36,7 @@
 		<!-- System view Infos-->
 		<text name="systemInfo">
 			<origin>0 0</origin>
-			<pos>-0.43 0.41</pos>
+			<pos>0.4 0.475</pos>
 			<size>1 0.22</size>
 			<backgroundColor>00000000</backgroundColor>
 			<color>ADADAD</color>
