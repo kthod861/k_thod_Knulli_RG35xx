@@ -21,9 +21,11 @@ Install :
 Download and extract to Knulli  /userdata/themes folder
 
 Systems preview:
+.
 ![sample1](https://github.com/kthod861/k_thod_es_de_Knulli_RG35xx/blob/main/_inc/Systems_screen.jpg)
 
 Gamelists preview:
+.
 ![sample1](https://github.com/kthod861/k_thod_es_de_Knulli_RG35xx/blob/main/_inc/Gamelists_screen.jpg)
 
 
