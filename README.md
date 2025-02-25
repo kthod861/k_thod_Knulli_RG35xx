@@ -20,12 +20,10 @@ Should fit any 4:3 ratio / 640x480 resolution.
 Install :
 Download and extract to Knulli  /userdata/themes folder
 
-Systems preview:
-.
+Systems preview:<br />
 ![sample1](https://github.com/kthod861/k_thod_es_de_Knulli_RG35xx/blob/main/_inc/Systems_screen.jpg)
 
-Gamelists preview:
-.
+Gamelists preview:<br />
 ![sample1](https://github.com/kthod861/k_thod_es_de_Knulli_RG35xx/blob/main/_inc/Gamelists_screen.jpg)
 
 
