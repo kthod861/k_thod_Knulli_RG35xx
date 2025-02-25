@@ -1,4 +1,5 @@
 <theme>
+
 <formatVersion>7</formatVersion>
 
 	<view name="system">
@@ -34,7 +35,7 @@
 			<reflexion>0.3 0.0</reflexion>
 		</image>
 		<!-- System view Infos-->
-		<text name="systemInfo">
+		<text name="systemInfo" >
 			<origin>0 0</origin>
 			<pos>0.4 0.475</pos>
 			<size>1 0.22</size>
@@ -43,6 +44,18 @@
 			<fontPath>${fontRegular}</fontPath>
 			<fontSize>0.02</fontSize>
 			<letterCase>capitalize</letterCase>
+		</text>
+		<!-- Manufacturer Infos-->
+		<text name="Manufacturer" extra="static">
+			<origin>0 0</origin>
+			<pos>0.02 0.472</pos>
+			<size>1 0.22</size>
+			<backgroundColor>00000000</backgroundColor>
+			<color>ADADAD</color>
+			<fontPath>${fontRegular}</fontPath>
+			<fontSize>0.02</fontSize>
+			<text>${systemManufacturer}    ${systemReleaseDateFormated}</text>
+			<opacity>0.8</opacity>
 		</text>
 		<!-- System view Carroussel overides-->
 		<carousel name="systemcarousel">
