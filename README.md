@@ -1,4 +1,4 @@
-# k_thod_es_de_Knulli_RG35xx
+# k_thod Knulli RG35xx
 
 A personnal modification of 
 
