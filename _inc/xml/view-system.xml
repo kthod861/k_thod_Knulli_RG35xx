@@ -36,7 +36,7 @@
 		</image>
 		<!-- System view Logos overides-->
 		<image name="logo">
-			<path>./_inc/systems/logos/${system.theme}.png</path>
+			<path>./_inc/systems/logos/${system.theme}.webp</path>
 			<reflexion>0.3 0.0</reflexion>
 		</image>
 		<!-- System view Infos-->

@@ -18,7 +18,7 @@
 			<verticalAlignment>center</verticalAlignment>
 			<scale>0.3 </scale>
 			<maxSize>0.8 0.3</maxSize>
-			<path>./_inc/systems/logos/${system.theme}.png</path>
+			<path>./_inc/systems/logos/${system.theme}.webp</path>
 			<zIndex>10</zIndex>
 			<reflexion>0.3 0.1</reflexion>
 			<linearSmooth>true</linearSmooth>
