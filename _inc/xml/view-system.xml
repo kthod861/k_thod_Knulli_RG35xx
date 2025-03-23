@@ -19,14 +19,14 @@
 			<linearSmooth>true</linearSmooth>
 			<zIndex>2</zIndex>
 		</image>
-		<image name="background_controler" extra="true">
+		<!-- Controlers-->
+		<image name="background_controler" extra="true" ifSubset="show_controller:yes">
 			<path>./_inc/systems/controllers/${system.theme}.webp</path>
-			<origin>0 1</origin>
-			<pos>0.02 -0.05</pos>
-			<maxSize>.28 .28</maxSize>
-			<linearSmooth>true</linearSmooth>
-			<opacity>1</opacity>
-			<storyboard>
+			<!-- FullAnim-->
+			<origin ifSubset="controllers_animations:full">0 1</origin>
+			<pos ifSubset="controllers_animations:full">0.02 -0.05</pos>
+			<opacity ifSubset="controllers_animations:full">1</opacity>
+			<storyboard ifSubset="controllers_animations:full">
 				<animation property="scale" from="0.0" to="0.000000" begin="0" duration="66" mode="linear"/>
 				<animation property="rotation" from="0.0" to="45.044296" begin="0" duration="66" mode="linear"/>
 				<animation property="offsetX" from="0.0" to="1.001438" begin="0" duration="66" mode="linear"/>
@@ -117,6 +117,23 @@
 				<animation property="offsetY" from="0.619123" to="0.620376" begin="1400" duration="66" mode="linear"/>
 				<animation property="opacity" from="0" to="1" begin="0" duration="700" mode="linear"/>
 			</storyboard>
+			
+			<!-- SmallAnim-->
+			<origin ifSubset="controllers_animations:small">0.5 0</origin>
+			<pos ifSubset="controllers_animations:small">0.85 .3</pos>
+			<opacity ifSubset="controllers_animations:small">0</opacity>
+			<storyboard ifSubset="controllers_animations:small">
+				<animation property="scale" from="0" to="1" begin="400" duration="200" mode="easeOut"/>
+				<animation property="opacity" from="0" to="1" begin="400" duration="200" mode="linear"/>
+			</storyboard>
+			
+			<!-- NoAnim-->
+			<origin ifSubset="controllers_animations:no">0.5 0</origin>
+			<pos ifSubset="controllers_animations:no">0.85 .3</pos>
+			
+			
+			<maxSize>.28 .28</maxSize>
+			<linearSmooth>true</linearSmooth>
 			<zIndex>3</zIndex>
 		</image>
 		<!-- whites lines -->
