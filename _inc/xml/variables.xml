@@ -7,8 +7,8 @@
 		</subset>
 		<subset name="controllers_animations" displayName="controllers animations">
 			<include name="physics" displayName="Physics" />
-			<include name="full" displayName="Full" />	
-			<include name="small" displayName="Small" />
+			<include name="full" displayName="Keyframed" />	
+			<include name="small" displayName="Simple" />
 			<include name="no" displayName="No" />
 		</subset>
 	
