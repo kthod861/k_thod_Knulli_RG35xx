@@ -11,7 +11,9 @@
 			<include name="small" displayName="Simple" />
 			<include name="no" displayName="No" />
 		</subset>
-	
+		<subset name="theme_version" displayName="Theme version">
+			<include name="version" displayName="1.4" />
+		</subset>
 	<variables>
 		<fontSizeH2>0.04375</fontSizeH2> <!-- 14 -->
 		<fontSizeH3>0.0375</fontSizeH3> <!-- 12 -->
